@@ -66,36 +66,50 @@
 
 ```
 ## Features
-- Login, Register, Email & Password Validation of MongoDB Data.
-- Upload Post, Update live preview, Like , Heart
+- Users : Register, Sign-in, Cart (Add & Remove), Product Rating, Address, Payment, Profile.
+
+- Admin : Dashboard, List of Products (CURD), List of Orders, Delivered Order, List of Users (CURD), Sellers (CRUD), Support.
+
+- Search Box : Advance Search (Filter by Category, Price Range, Average Rating).
+
+- Payment Method : PayPal.
+
+- Live Chat : with Customer to Seller.
 ```
 
-## 2. You Will Learn
+## 2. Using Tech Stack
 
 ```
-- Reactjs => Hooks(UseState, UseEffects, UseContext).
+- HTML5 and CSS3: Semantic Elements, CSS Grid, Flexbox
 
-- Material UI => ( Core, Icons, UseStyles).
+- React: Components, Props, Events, Hooks, Router, Axios
 
-- NodeJS, ExpressJS, Mongodb.
+- Redux: Store, Reducers, Actions
 
-- Full Stack (MERN) Project.
+- Node & Express: Web API, Body Parser, File Upload, JWT
+
+- MongoDB: Mongoose, Aggregation
+
+- Development: ESLint, Babel, Git, Github,
 
 ```
 
 ## 3. Clone repo
 
 ```
-$ git@github.com:NileshShriwas/Social-Media.git
-$ cd Social-Media
+git@github.com:NileshShriwas/E-commerce.git
+$ cd E-commerce
+$ npm install
 
-## Social UI
+## E-commerce Front End
+$ cd frontend
 First command - npm install (install All Dependency)
 Second command - npm start
+Port - http://localhost:3000
 
-## Social Rest API
-First command - npm install (install All Dependency)
+## E-commerce Back End
 Second command - npm start
+Port - http://localhost:5000
 
 ## Paste your Mongo URL in (Social Rest API)  .env file.
 ```

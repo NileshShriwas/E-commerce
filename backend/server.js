@@ -15,7 +15,6 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/amazona', {
-  // = "mongodb+srv://Nilesh:TANIYAJAN@cluster0.2ybwx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
