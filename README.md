@@ -111,7 +111,7 @@ Port - http://localhost:3000
 Second command - npm start
 Port - http://localhost:5000
 
-## Paste your Mongo URL in (Social Rest API)  .env file.
+## Paste your Mongo URL in (Backend/Server.js) file.
 ```
 
 ## Getting Started with Create React App
