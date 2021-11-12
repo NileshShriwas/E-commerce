@@ -1,21 +1,21 @@
-import http from 'http';
-import { Server } from 'socket.io';
-import express from 'express';
-import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import express from 'express';
+import http from 'http';
+import mongoose from 'mongoose';
 import path from 'path';
-import productRouter from './routers/productRouter.js';
-import userRouter from './routers/userRouter.js';
+import { Server } from 'socket.io';
 import orderRouter from './routers/orderRouter.js';
+import productRouter from './routers/productRouter.js';
 import uploadRouter from './routers/uploadRouter.js';
+import userRouter from './routers/userRouter.js';
 
 dotenv.config();
 
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
 mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/amazona', {
+  // = "mongodb+srv://Nilesh:TANIYAJAN@cluster0.2ybwx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
